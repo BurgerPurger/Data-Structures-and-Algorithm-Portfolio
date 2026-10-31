@@ -56,23 +56,10 @@ Each numbered folder corresponds to a course module. Original `.cpp` source file
 
 ## Building and Running
 
-The programs are written in standard C++ and can be compiled with a C++ compiler such as `g++` (MinGW/MSYS2 on Windows is suitable).
-
-For a standalone source file:
-
-```bash
-g++ -std=c++17 -Wall -Wextra -pedantic path/to/source.cpp -o program
-./program
-```
+The programs are written in standard C++ and can be compiled with a C++ compiler.
 
 For activities that use header files, compile the corresponding driver `.cpp` file from the same directory or provide the appropriate include paths. Some folders contain multiple independent `main()` functions, so compile one driver program at a time.
 
-## Notes
-
-- This repository is an academic portfolio documenting coursework and practice implementations.
-- Executable binaries and editor-specific workspace settings are intentionally excluded; compile the source files locally.
-- Some activities may be individual or collaborative coursework, as indicated by their original filenames and contents.
-- The code is retained as coursework rather than presented as a production-ready software library.
 
 ## Author
 
